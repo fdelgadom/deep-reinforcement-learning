@@ -11,11 +11,11 @@ DQN Methods are defined in the paper ["Human-level control through deep reinforc
 ### Hyper Parameters
 
 ```python
+BUFFER_SIZE = int(1e5)  # replay buffer size
 BATCH_SIZE = 64         # minibatch size
-BUFFER_SIZE = 10000     # replay buffer size
 GAMMA = 0.99            # discount factor
-LEARNING_RATE = 0.0005  # learning rate 
-TAU = 0.001             # for soft update of target parameters
+TAU = 1e-3              # for soft update of target parameters
+LR = 5e-4               # learning rate 
 UPDATE_EVERY = 4        # how often to update the network
 ```
 The BATCH_SIZE and BUFFER_SIZE are parameters for the ReplayBuffer class, an "memory" randomly sampled at each step to obtain _experiences_ passed into the learn method with a discount of GAMMA.
