@@ -1,3 +1,7 @@
+[//]: # (Image References)
+
+[image1]: ./descarga.png "Visualization"
+
 # Report: "Project 1 - Navigation"
 
 This project involves training a DeepRL agent to solve the Banana Unity Environment, a navigation problem.
@@ -44,7 +48,7 @@ Model:
 
 ### Plot of Rewards
 
-
+![alt text][image1]
 
 Environment solved in 374 episodes.
 
