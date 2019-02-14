@@ -44,7 +44,10 @@ Model:
 
 ### Plot of Rewards
 
-Environment solved in 547 episodes. Average Score: 15.01
+
+
+Environment solved in 374 episodes.
+
 
 ## Ideas for Future Work
 
